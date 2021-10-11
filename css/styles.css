@@ -1,0 +1,171 @@
+
+#name {
+  font-family: 'Sacramento', cursive;
+  font-size: 5em;
+  margin: 0;
+  /*デフォ16PXなので、16*5にすると80pxになれる。*/
+  /*emでのサイズ…1emは大文字M一つ分の幅ということ*/
+  /* 16px = 100% = 1em %とemは動的(PC環境設定によって)にサイズが変わるので「%」「em」おすすめ*/
+  /*親の設定が子に引き継がれどんどん大きくなるが「rem」なら親の設定がセ\リセットされる！*/
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.top-container {
+  position: relative;
+  background-color: #F6F6E9;
+  color: #194769;
+  padding-top: 70px;
+  padding-bottom: 70px
+}
+
+
+body{
+  margin: 0;
+  text-align: center; /*widthが設定されていないものの中央揃え*/
+}
+
+div {
+  padding: 2%;
+}
+
+h1{
+  font-family: 'Courgette', cursive;
+}
+
+h2{
+  font-family: 'Courgette', cursive;
+  margin: 10 0 0 0;
+}
+
+h3{
+  font-family: 'Courgette', cursive;
+  padding: auto;
+}
+
+p{
+  margin: 0;
+}
+
+hr{
+  background-color: #2D46B9;
+  border-width: 0 0 1px;
+  border-image: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 0),
+    hsla(0, 0%, 100%, 0.5) 50%,
+    hsla(0, 0%, 100%, 0) 100%) 0 0 100%;
+  border-style: solid;
+  color: #2D46B9;
+  margin: 30px;
+}
+
+a{
+  color: #F037A5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FF96AD;
+}
+
+
+.middle-container {
+  background-color: #194769;
+  color: #F6F6E9;
+}
+
+.bottom-container {
+  background-color: #F6F6E9;
+  color: #194769;
+  margin: 20 0 100px
+}
+
+.top-cloud{
+  position: absolute;
+  top: 8%;
+  right: 20%;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 20%;
+  top: 70%;
+}
+
+.profile-image{
+  width: 20%;
+  margin-top: 80px;
+}
+
+.lying-image{
+  width: 70px;
+  float: left;
+  margin-right: 20px
+}
+
+.pizzaman-discription{
+  clear: left;
+}
+
+.training-image{
+  width: 70px;
+  float: left; /*ひとつのdivの中で、この部分を改行ルールなくし、他のdivに包まれる感じになる*/
+  margin-right: 20px
+}
+
+.experiences{
+  clear: left;
+}
+/*floatは本当に必要な時だけつあｋって！めんどーだから*/
+/*floatをラップしたくない時は、その対象をclear: 場所;で指定する。*/
+
+.stretching-image{
+  width: 70px;
+  float: left;
+  margin-right: 20px
+}
+
+.skills{
+  clear: left;
+}
+
+.sns-images{
+  width: 4%;
+  margin: 0.5%;
+}
+
+.subtitle{
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+
+.adjustment{
+  border: none;
+  margin-top: 5%;
+}
+
+.copyright {
+  font-size: 0.7rem;
+  margin: 15px 0 50px 0;
+}
+
+.pizza {
+  width: 500px;
+}
+
+.cart-image{
+  width: 40px;
+}
