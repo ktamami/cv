@@ -3,10 +3,6 @@
   font-family: 'Sacramento', cursive;
   font-size: 5em;
   margin: 0;
-  /*デフォ16PXなので、16*5にすると80pxになれる。*/
-  /*emでのサイズ…1emは大文字M一つ分の幅ということ*/
-  /* 16px = 100% = 1em %とemは動的(PC環境設定によって)にサイズが変わるので「%」「em」おすすめ*/
-  /*親の設定が子に引き継がれどんどん大きくなるが「rem」なら親の設定がセ\リセットされる！*/
 }
 
 html {
@@ -27,7 +23,7 @@ html {
 
 body{
   margin: 0;
-  text-align: center; /*widthが設定されていないものの中央揃え*/
+  text-align: center;
 }
 
 div {
@@ -79,7 +75,7 @@ a:hover{
 }
 
 table {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin: auto;
   text-align: left;
 }
@@ -118,7 +114,7 @@ table {
 }
 
 .sns-images{
-  width: 4%;
+  width: 6%;
   margin: 0.5%;
 }
 
