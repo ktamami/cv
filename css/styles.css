@@ -79,6 +79,7 @@ a:hover{
 }
 
 table {
+  font-size: 1rem;
   margin: auto;
   text-align: left;
 }
