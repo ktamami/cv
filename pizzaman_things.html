@@ -1,57 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <title>Tamami Kando</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="pizza_icon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <div class="top-container">
+  <head>
+    <meta charset="utf-8">
+    <title>Pizzaman things</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
     <h1>Pizzaman Things</h1>
-  </div>
-
-  <div class="middle-container">
-    <h2>Works</h2>
-    <h3>Pizzaman T-shirts</h3>
-    <hr class="adjustment">
-    <img class="pizza" src="images/pizzaT01.jpg" alt="Pizzaman T-shirt 01"><br>
-    <img class="cart-image" src="images/add-to-cart.png" alt="Add to cart">
-    <a href="https://up-t.jp/market/60091257a15c4">Greeting Pizzaman</a><br>
-    <br>
-
-    <img class="pizza" src="images/pizzaT02.jpg" alt="Pizzaman T-shirt 02"><br>
-    <img class="cart-image" src="images/add-to-cart.png" alt="Add to cart">
-    <a href="https://up-t.jp/market/600136d3a6cfb">Share pizzaself</a><br>
-    <br>
-
-    <hr>
-    <h3>Wallpapers</h3>
-    <hr class="adjustment">
-    <img class="pizza" src="images/mainichi_no_stretch.jpg" alt="mainichi no stretch"><br>
-    <p>"Roma was not built in a day"</p>
-    <br>
-    <img class="pizza" src="images/Sushi vs Pizza.jpg" alt="Respect Diversity"><br>
-    <p>"Respect Diversity"</p>
-    <hr class="adjustment">
-
-    <hr>
-    <h3>Pizza Playlist</h3>
-    <iframe src="https://open.spotify.com/embed/playlist/5s2qSyEgFy4rLQqF0yrf1y?theme=0" width="50%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-    <p>This is for you who must be in the mood for PIZZA.<br>
-    This playlist was generated using Python code!</p>
-    <hr class="adjustment">
-    <hr class="adjustment">
-
-  </div>
-  <div class="bottom-container">
-      <h3><a href="index.html">Back</a></h3>
-  </div>
-</body>
-
+    <h3>Works</h3>
+    <ul>
+      <li>Pizzaman T-shirts</li>
+      <img class="pizza" src="images/pizzaT01.jpg" alt="Pizzaman T-shirt 01"><br>
+      <!--srcはurlかこのディレクトリ内のイメージデータ。（それか相対パス通して）
+      altは、写真が見えない時に代わりに表示する言葉。サーチエンジンにも引っかかれる-->
+      <a href="https://up-t.jp/market/60091257a15c4">Greeting Pizzaman</a><br>
+      <!--anchor tagはハイパーリンクをおけるタグ
+      a=HTML element, href=HTML Attribute, contentはタグの間に-->
+      <img class="pizza" src="images/pizzaT02.jpg" alt="Pizzaman T-shirt 02"><br>
+      <a href="https://up-t.jp/market/600136d3a6cfb">Sharing pizzaself with you</a><br>
+      <li>Wallpapers</li>
+      <img class="pizza" src="images/mainichi_no_stretch.jpg" alt="mainichi no stretch"><br>
+      <img class="pizza" src="images/Sushi vs Pizza.jpg" alt="Respect Diversity"><br>
+    </ul>
+  </body>
 </html>
